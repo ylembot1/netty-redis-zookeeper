@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class NioDiscardClient {
     public static void main(String[] args) throws IOException {
-        InetSocketAddress serverAddress = new InetSocketAddress("127.0.0.1", 8299);
+        InetSocketAddress serverAddress = new InetSocketAddress("127.0.0.1", 8080);
         SocketChannel socketChannel = SocketChannel.open(serverAddress);
         // socketChannel.bind(serverAddress);   // 客户端当然不能用bind！！
         socketChannel.configureBlocking(false);
