@@ -9,12 +9,14 @@
         <module name="netty-base" />
         <module name="nio" />
         <module name="future" />
+        <module name="reactor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="future" target="8" />
       <module name="netty-base" target="8" />
       <module name="nio" target="8" />
+      <module name="reactor" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

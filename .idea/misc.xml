@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/nio/pom.xml" />
         <option value="$PROJECT_DIR$/netty-base/pom.xml" />
         <option value="$PROJECT_DIR$/future/pom.xml" />
+        <option value="$PROJECT_DIR$/reactor/pom.xml" />
       </list>
     </option>
   </component>

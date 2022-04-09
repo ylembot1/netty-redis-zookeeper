@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/future/future.iml" filepath="$PROJECT_DIR$/future/future.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-base/netty-base.iml" filepath="$PROJECT_DIR$/netty-base/netty-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reactor/reactor.iml" filepath="$PROJECT_DIR$/reactor/reactor.iml" />
     </modules>
   </component>
 </project>
