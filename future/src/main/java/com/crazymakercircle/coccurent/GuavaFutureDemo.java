@@ -119,7 +119,7 @@ public class GuavaFutureDemo {
             public void onFailure(Throwable throwable) {
                 System.out.println("烧水失败，没有茶喝了");
             }
-        });
+        }, gPool);
 
         ListenableFuture<Boolean> washFuture = gPool.submit(washJob);
         Futures.addCallback(washFuture, new FutureCallback<Boolean>() {
@@ -134,6 +134,6 @@ public class GuavaFutureDemo {
             public void onFailure(Throwable throwable) {
                 System.out.println("杯子洗不了，没有茶喝了");
             }
-        });
+        }, gPool);
     }
 }

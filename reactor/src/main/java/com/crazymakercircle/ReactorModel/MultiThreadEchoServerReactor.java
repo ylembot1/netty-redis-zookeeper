@@ -70,6 +70,7 @@ public class MultiThreadEchoServerReactor {
                 e.printStackTrace();
             }
         }
+
         void dispatch(SelectionKey sk) {
             Runnable handler = (Runnable) sk.attachment();
             if (handler != null) {

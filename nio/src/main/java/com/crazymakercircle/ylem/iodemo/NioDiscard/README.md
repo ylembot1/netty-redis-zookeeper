@@ -1,0 +1,1 @@
+echo discard client and server
